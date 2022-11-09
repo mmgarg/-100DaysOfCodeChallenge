@@ -1,9 +1,12 @@
-public class Addition
-{  
-public static void main(String args[])   
-{  
-int n1 = 225, n2 = 115, sum;  
-sum = n1 + n2;  
-System.out.println("The sum of numbers is: "+sum);  
-}  
-}  
+import java.util.Scanner;
+
+public class Sum {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        float a = sc.nextFloat();
+        float b = sc.nextFloat();
+        float c = sc.nextFloat();
+
+        System.out.println("The Sum is: " + (a+b+c));
+     } 
+}
