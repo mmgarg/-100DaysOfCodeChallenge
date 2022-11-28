@@ -1,0 +1,10 @@
+Topic of the Day:Java Inheritance
+Using inheritance, one class can acquire the properties of others.
+Steps:
+1.This class has only one method, walk. 
+2.Next, we want to create a Bird class that also has a fly method. We do this using extends keyword.
+3.Finally, we can create a Bird object that can both fly and walk.
+Output:
+I am walking
+I am flying
+I am singing
