@@ -1,0 +1,16 @@
+Topic Of the Day: Java Abstract Class
+A Java abstract class is a class that can't be instantiated. That means you cannot create new instances of an abstract class. It works as a base for subclasses.
+
+Example of abstract class:
+abstract class Book{
+    String title;
+    abstract void setTitle(String s);
+    String getTitle(){
+        return title;
+    }
+}
+Input
+A tale of two cities
+
+Output
+The title is: A tale of two cities
